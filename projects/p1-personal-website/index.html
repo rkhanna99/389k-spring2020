@@ -1,14 +1,31 @@
-<!DOCKTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <style>
       .header {
-        padding: 60px;
+        padding: 70px;
         text-align: center;
         background: #1abc9c;
         color: white;
         font-size: 30px;
+      }
+      .navigation_bar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .navigation_bar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+
+      .navigation_bar a:hover {
+        background-color: #ddd;
+        color: black;
       }
     </style>
 
@@ -17,6 +34,12 @@
     <div class = "header">
       <h1>Rahul Khanna</h1>
       <p>Welcome to my Website</p>
+    </div>
+    <div class = "navigation_bar">
+      <!-- Links to other pages for the website -->
+      <a href = "file:///Users/rkhanna/389k-spring2020/projects/p1-personal-website/about.html" class = "About">About Me</a>
+      <a href = "file:///Users/rkhanna/389k-spring2020/projects/p1-personal-website/gallery.html" class = "Gallery">Gallery</a>
+      <a href = "file:///Users/rkhanna/389k-spring2020/projects/p1-personal-website/travel.html" class = "Travel">Travel Log</a>
     </div>
   </body>
 </html>
